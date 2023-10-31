@@ -1,3 +1,5 @@
+// This is test task.
+
 const addDays = (date, days) => {
   const _date = new Date(date);
   _date.setDate(_date.getDate() + days);
@@ -17,3 +19,5 @@ module.exports = {
     date: addDays(today, i),
   })),
 };
+
+
